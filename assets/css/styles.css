@@ -1,0 +1,72 @@
+body{margin: 0;
+    padding: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.contenedor{
+    box-sizing:border-box ;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    height: 400px;
+    width:60%;
+    padding: 10px;
+    background-color: lightgray;
+
+}
+
+.contenedor h1 {
+    border-bottom: 1px solid gray;
+  
+}
+
+.ingresos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#escriboTarea{
+    width: 80%;
+    height: 30px;
+}
+
+
+#agregoTarea{
+    margin: 5px;
+    width: 15%;
+    height: 35px;
+    background-color: rgb(8, 141, 8);
+}
+
+
+.contadores{
+    display: flex;
+    flex-direction: column;
+}
+
+.resumenes {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+
+}
+
+
